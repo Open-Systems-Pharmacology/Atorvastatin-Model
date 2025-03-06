@@ -1,9 +1,7 @@
 # Atorvastatin-Model
 Whole-body PBPK model of atorvastatin acid.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Atorvastatin.svg/2560px-Atorvastatin.svg.png" alt="File:Atorvastatin.svg" style="zoom:50%;" />
-
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Atorvastatin.svg/2560px-Atorvastatin.svg.png" alt="File:Atorvastatin.svg" style="zoom:50%;" />
 
 This repository contains:
 
