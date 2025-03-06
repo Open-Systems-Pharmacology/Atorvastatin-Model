@@ -13,11 +13,7 @@ This repository contains:
 
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 
-
-
-This atorvastatin acid model is intended to be used as victim drug in CYP3A4- and OATP1B1/3-mediated drug-drug interactions (DDI).
-
-Within this repository, we share a whole-body PBPK model of atorvastatin acid that has been carefully developed using clinical studies by Gandelman 2011 [[1](#references)], Patiño-Rodríguez 2015 [[2](#references)], Bullman 2011 [[3](#references)], Di Spirito 2008 [[4](#references)], Mazzu 2000 [[5](#references)], Shin 2011 [[6](#references)],  Siedlik 1999 [[7](#references)], Backman 2005 [[8](#references)], Whitfield 2010 [[9](#references)], Kantola 1998 [[10](#references)], Lau 2007 [[11](#references)], Mori 2020 [[12](#references)], Takehara 2018 [[13](#references)] and Teng 2013 [[14](#references)] after oral administration. The selected clinical study data captures a broad dosing range of 1.0 to 80.0 mg atorvastatin acid.
+Within this repository, we share a whole-body PBPK model of atorvastatin acid that has been carefully developed using clinical studies by Backman 2005 ([Backman 2005](#8-references)), Bullman 2011 ([Bullman 2011](#3-references)), Di Spirito 2008 ([Di Spirito 2008](#4-references)), Gandelman 2011 ([Gandelman 2011](#1-references)), Kantola 1998 ([Kantola 1998](#10-references)), Lau 2007 ([Lau 2007](#11-references)), Mazzu 2000 ([Mazzu 2000](#5-references)), Mori 2020 ([Mori 2020](#12-references)), Park 2022 [Park 2022](#28-references), Patiño-Rodríguez 2015 ([Patiño-Rodríguez 2015](#2-references)), Shin 2011 ([Shin 2011](#6-references)), Siedlik 1999 ([Siedlik 1999](#7-references)), Takehara 2018 ([Takehara 2018](#13-references)), Teng 2013 ([Teng 2013](#14-references)) and Whitfield 2010 ([ Whitfield 2010](#9-references)) after oral administration. The selected clinical study data captures a broad dosing range of 1.0 to 80.0 mg atorvastatin acid.
 
 The PK-Sim project file contains simulations and the observed data of all clinical studies used for model development and evaluation.
 
