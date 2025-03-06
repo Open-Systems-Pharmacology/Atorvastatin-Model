@@ -15,6 +15,8 @@ This repository contains:
 
 Within this repository, we share a whole-body PBPK model of atorvastatin acid that has been carefully developed using clinical studies by Backman 2005 [[1](#references)], Bullman 2011 [[2](#references)], Di Spirito 2008 [[3](#references)], Gandelman 2011 [[4](#references)], Kantola 1998 [[5](#references)], Lau 2007 [[6](#references)], Mazzu 2000 [[7](#references)], Mori 2020 [[8](#references)], Park 2022 [[9](#references)], Patiño-Rodríguez 2015 [[10](#references)], Shin 2011 [[11](#references)], Siedlik 1999 [[12](#references)], Takehara 2018 [[13](#references)], Teng 2013 [[14](#references)] and Whitfield 2010 [[15](#references)] after oral administration. The selected clinical study data captures a broad dosing range of 1.0 to 80.0 mg atorvastatin acid.
 
+The PK-Sim project file contains simulations and the observed data of all clinical studies used for model development and evaluation, except for DDI study data.
+
 ## Code of conduct
 
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
