@@ -2,19 +2,19 @@
 
 A literature search was performed to collect available information on physicochemical properties of atorvastatin acid. The obtained information from the literature is summarized in the table below, and is used for model building.
 
-| **Parameter**           | **Unit** | **Value** | Source                               | **Description**                                              |
-| :---------------------- | -------- | --------- | ------------------------------------ | ------------------------------------------------------------ |
-| MW                      | g/mol    | 558.66    | [Zhang 2015](#21-references)         | Molecular weight                                             |
-| pK<sub>a</sub> (acid)   |          | 4.46      | [Zhang 2015](#21-references)         | Acid dissociation constant of conjugate acid                 |
-| Solubility (pH=6)       | g/L      | 1.22      | [Morse 2019](#22-references)         | Solubility                                           |
-| logP                    |          | 4.07      | [Duan 2017](#23-references)          | Partition coefficient between octanol and water              |
-| fu                      | %        | 5.10      | [Zhang 2015](#21-references)         | Fraction unbound in plasma                                   |
-| K<sub>m</sub> CYP3A4    | µmol/L   | 25.60     | [Jacobsen 2000](#23-references)      | CYP3A4 Michaelis-Menten constant                             |
-| K<sub>m</sub> CYP3A5    | µmol/L   | 42.60     | [Park 2008](#29-references)          | CYP3A5 Michaelis-Menten constant                             |
-| K<sub>m</sub> BCRP      | µmol/L   | 82.41     | [Deng 2021](#24-references)          | BCRP Michaelis-Menten constant                               |                
-| K<sub>m</sub> OATP1B1/3 | µmol/L   | 0.77      | [Vildhede 2014](#25-references)      | OATP1B1/3 Michaelis-Menten constant                         |
-| K<sub>m</sub> P-gp      | µmol/L   | 10.7      | [Deng 2021](#24-references)          | P-gp Michaelis-Menten constant                                |
-| Formulation             |          | Solution  |                                      | Formulation used in simulations                              |
+| **Parameter**             | **Unit** | **Value** | Source                               | **Description**                                              |
+| :------------------------ | -------- | --------- | ------------------------------------ | ------------------------------------------------------------ |
+| MW                        | g/mol    | 558.66    | [Zhang 2015](#21-references)         | Molecular weight                                             |
+| pK<sub>a</sub> (acid)     |          | 4.46      | [Zhang 2015](#21-references)         | Acid dissociation constant of conjugate acid                 |
+| Solubility (pH=6)         | g/L      | 1.22      | [Morse 2019](#22-references)         | Solubility                                           |
+| logP                      |          | 4.07      | [Duan 2017](#23-references)          | Partition coefficient between octanol and water              |
+| fu                        | %        | 5.10      | [Zhang 2015](#21-references)         | Fraction unbound in plasma                                   |
+| K<sub>m</sub> CYP3A4      | µmol/L   | 25.60     | [Jacobsen 2000](#23-references)      | CYP3A4 Michaelis-Menten constant                             |
+| K<sub>m</sub> CYP3A5      | µmol/L   | 42.60     | [Park 2008](#29-references)          | CYP3A5 Michaelis-Menten constant                             |
+| K<sub>m</sub> BCRP        | µmol/L   | 82.41     | [Deng 2021](#24-references)          | BCRP Michaelis-Menten constant                               |                
+| K<sub>m</sub> OATP1B1/1B3 | µmol/L   | 0.77      | [Vildhede 2014](#25-references)      | OATP1B1/3 Michaelis-Menten constant                         |
+| K<sub>m</sub> P-gp        | µmol/L   | 10.7      | [Deng 2021](#24-references)          | P-gp Michaelis-Menten constant                                |
+| Formulation               |          | Solution  |                                      | Formulation used in simulations                              |
 
 ### 2.2.2 Clinical data
 
