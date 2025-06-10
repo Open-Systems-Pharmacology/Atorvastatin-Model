@@ -29,9 +29,9 @@ In addition, several transport proteins were implemented into the model via Mich
 
 The BCRP expression profile is based on whole genome expression arrays from ArrayExpress ([Kolesnikov 2015](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
-* OATP1B1/3
+* OATP1B1/1B3
 
-For OATP1B1/3 the expression profile was considered only for OATP1B1 and is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+For OATP1B1/1B3 the expression profile was considered only for OATP1B1 and is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 * P-gp
 
@@ -50,7 +50,7 @@ This is the result of the final parameter identification:
 | `kcat` (CYP3A5) NM             | 1350.42         | 1/min     |
 | `kcat` (CYP3A5) PM/IM          | 0               | 1/min     |
 | `kcat` (BCRP)                  | 932.28          | 1/min     |
-| `kcat` (OATP1B1/3)             | 1970.16         | 1/min     |
+| `kcat` (OATP1B1/1B3)           | 1970.16         | 1/min     |
 | `kcat` (P-gp)                  | 614.28          | 1/min     |
 
 
