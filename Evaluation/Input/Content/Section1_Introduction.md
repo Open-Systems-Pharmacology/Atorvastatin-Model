@@ -10,6 +10,6 @@ The presented model includes the following features:
 - Metabolism by CYP3A5 (only implemented in Park 2022 for CYP3A5 normal metabolizers ([Park 2022](#28-references)); otherwise, the kcat has been set to 0),
 - Transport by BCRP,
 - Transport by P-gp, and
-- Transport by OATP1B1/3.
+- Transport by OATP1B1/1B3.
 
 
