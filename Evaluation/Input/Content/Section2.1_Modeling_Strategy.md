@@ -4,12 +4,13 @@ The applied activity and variability of plasma proteins and active processes tha
 
 A PBPK model was built based on seven mean plasma concentration-time profiles after oral administration of atorvastatin acid obtained from the clinical studies by Backman 2005 ([Backman 2005](#8-references)), Bullman 2011 ([Bullman 2011 ](#3-references)), Gandelman 2011 ([Gandelman 2011](#1-references)), Kantola 1998 ([Kantola 1998](#10-references)) and Teng 2013 ([Teng 2013](#14-references)). To inform CYP3A4- and OATP1B1/1B3-mediated pathways, the DDI studies with itraconazole ([Kantola 1998](#10-references)) and rifampicin ([Lau 2007](#11-references)) were included in the model building. Virtual mean individuals were generated for each study based on the reported mean and mode demographic information (including sex, ethnicity, body weight, height, body mass index, and age). If demographic information was missing, provided mean values in PK-Sim®, that were computed from the respective population database, were applied. The relative tissue-specific expressions of the enzyme and transporter predominantly being involved in the metabolism/transport of atorvastatin acid (CYP3A4, CYP3A5, BCRP, OATP1B1/1B3, and P-gp) were considered ([Nishimura 2003](#18-references), [Nishimura 2005](#19-references), [Kolesnikov 2015](#20-references)). 
 
-A specific set of parameters (see below) was optimized to describe the disposition of atorvastatin acid using the Parameter Identification module provided in PK-Sim®.
+A specific set of parameters (see [Section 3.1](#31-atorvastatin-final-input-parameters)) was optimized to describe the disposition of atorvastatin acid using the Parameter Identification module provided in PK-Sim®.
 
 The model was then verified by simulating further clinical studies reporting pharmacokinetic concentration-time profiles after oral administration of atorvastatin acid.
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-data-used).
 
 Details about the structural model and its parameters can be found in [Section 2.3](#23-model-parameters-and-assumptions).
+
 
 
