@@ -23,7 +23,7 @@ The CYP3A4 expression profile is based on high-sensitive real-time RT-PCR ([Nish
 The CYP3A5 metabolic pathway was implemented only for normal metabolizers in the study by [Park 2022](#28-references); for all other studies, CYP3A5 `kcat` value was set to 0.
 The CYP3A5 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#18-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
-In addition, several transport proteins were implemented into the model via Michaelis-Menten kinetics: 
+In addition, three transport proteins were implemented into the model via Michaelis-Menten kinetics: 
 
 * BCRP
 
@@ -35,9 +35,9 @@ For OATP1B1/1B3 the expression profile was considered only for OATP1B1 and is ba
 
 * P-gp
 
-The P-gp expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)) with an intestinal mucosa of factor 3.57 ([Hanke 2018](#27-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the Km was taken from the literature and kcat was optimized based on clinical data (see Section 2.3.4).
+The P-gp expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)) with an intestinal mucosa of factor 3.57 ([Hanke 2018](#27-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see Section 2.3.4).
 
-Additionally, fraction of bile that was continously released was set to 1 (`EHC continuous fraction`).
+Additionally, fraction of bile that was continuously released was set to 1 (`EHC continuous fraction`).
 
 
 ### 2.3.4 Automated Parameter Identification
@@ -53,6 +53,4 @@ This is the result of the final parameter identification:
 | `kcat` (OATP1B1/1B3)           | 1970.16         | 1/min     |
 | `kcat` (P-gp)                  | 614.28          | 1/min     |
 
-
-
- 
+IM, intermediate metabolizer; NM, normal metabolizer; PM, poor metabolizer.
