@@ -52,7 +52,7 @@ The applied activity and variability of plasma proteins and active processes tha
 
 A PBPK model was built based on seven mean plasma concentration-time profiles after oral administration of atorvastatin acid obtained from the clinical studies by Backman 2005 ([Backman 2005](#5-references)), Bullman 2011 ([Bullman 2011 ](#5-references)), Gandelman 2011 ([Gandelman 2011](#5-references)), Kantola 1998 ([Kantola 1998](#5-references)) and Teng 2013 ([Teng 2013](#5-references)). To inform CYP3A4- and OATP1B1/1B3-mediated pathways, the DDI studies with itraconazole ([Kantola 1998](#5-references)) and rifampicin ([Lau 2007](#5-references)) were included in the model building. Virtual mean individuals were generated for each study based on the reported mean and mode demographic information (including sex, ethnicity, body weight, height, body mass index, and age). If demographic information was missing, provided mean values in PK-Sim®, that were computed from the respective population database, were applied. The relative tissue-specific expressions of the enzyme and transporter predominantly being involved in the metabolism/transport of atorvastatin acid (CYP3A4, CYP3A5, BCRP, OATP1B1/1B3, and P-gp) were considered ([Nishimura 2003](#5-references), [Nishimura 2005](#5-references), [Kolesnikov 2015](#5-references)). 
 
-A specific set of parameters (see [Section 3.1](#31-atorvastatin-final-input-parameters)) was optimized to describe the disposition of atorvastatin acid using the Parameter Identification module provided in PK-Sim®.
+A specific set of parameters (see [Section 3.1](#31-atorvastatin-acid-final-input-parameters)) was optimized to describe the disposition of atorvastatin acid using the Parameter Identification module provided in PK-Sim®.
 
 The model was then verified by simulating further clinical studies reporting pharmacokinetic concentration-time profiles after oral administration of atorvastatin acid.
 
@@ -187,8 +187,8 @@ The PBPK model for atorvastatin acid was developed and evaluated using publicly 
 
 The next sections show:
 
-1. The final model input parameters for the building blocks: [Section 3.1](#31-atorvastatin-final-input-parameters).
-2. The overall goodness of fit: [Section 3.2](#32-atorvastatin-diagnostics-plots).
+1. The final model input parameters for the building blocks: [Section 3.1](#31-atorvastatin-acid-final-input-parameters).
+2. The overall goodness of fit: [Section 3.2](#32-atorvastatin-acid-diagnostics-plots).
 3. Simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-concentration-time-profiles).
 
 ## 3.1 Atorvastatin acid final input parameters<a id="31"></a>
