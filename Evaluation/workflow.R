@@ -7,7 +7,7 @@
 #' @param createWordReport Logical defining if a `docx` version of the report should also be created.
 #' Note that `pandoc` installation is required for this feature
 #' [https://github.com/Open-Systems-Pharmacology/OSPSuite.ReportingEngine/wiki/Installing-pandoc]
-#' @param maxSimulationsPerCore An integer that set the maximimum number of simulations per core
+#' @param maxSimulationsPerCore An integer that set the maximum number of simulations per core
 #' @param versionInfo A `QualificationVersionInfo` object to update title page with Qualification Version Information
 #' @param wordConversionTemplate File name of docx template document passed to Pandoc for the conversion of the md report into docx
 #' Default template is available using `system.file("extdata", "reference.docx", package = "ospsuite.reportingengine")`
@@ -74,10 +74,10 @@ createQualificationReport <- function(qualificationRunnerFolder,
   recordWorkflowTime <- TRUE
 
   #' Set watermark that will appear in all generated plots
-  #' Default is no watermark. `Label` objects from `tlf` package can be used to specifiy watermark font.
+  #' Default is no watermark. `Label` objects from `tlf` package can be used to specify watermark font.
   watermark <- ""
 
-  #' If not set, report created will be named `report.md` and located in the worflow folder namely `reOutputFolder`
+  #' If not set, report created will be named `report.md` and located in the workflow folder namely `reOutputFolder`
   reportFolder <- file.path(workingDirectory, "report")
   reportPath <- file.path(reportFolder, "report.md")
   
@@ -134,7 +134,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' Set watermark. If set, it will appear in all generated plots
   workflow$setWatermark(watermark)
 
-  #' Set the maximimum number of simulations per core if defined
+  #' Set the maximum number of simulations per core if defined
   if(!is.null(maxSimulationsPerCore)){
     workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
   }

@@ -30,7 +30,7 @@
 
 **Willmann 2007** Willmann S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. (2007). Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. *J Pharmacokinet Pharmacodyn.* 34(3), 401-431.
 
-**PK-Sim Ontogeny Database Version 7.3** Open Systems Pharmacology Suite Community (2018) PK-Sim® Ontogeny Database Documentation version 7.3. https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-SimOntogenyDatabaseVersion7.3.pdf.
+**PK-Sim Ontogeny Database Version 7.3** Open Systems Pharmacology Suite Community (2018) PK-Sim® [Ontogeny Database Documentation version 7.3](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf).
 
 **Nishimura 2003** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T (2003) Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. *Journal of the Pharmaceutical Society of Japan* *123*(5):369–75.
 
