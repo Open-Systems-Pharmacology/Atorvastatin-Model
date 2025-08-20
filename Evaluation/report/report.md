@@ -28,16 +28,16 @@ https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
 
 # 1 Introduction<a id="1"></a>
 
-Atorvastatin, a 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor, is a widely prescribed statin to treat hypercholesterolemia ([Morse 2019](#31-references)). The recommended dosage for adults ranges from 10 to 80 mg once daily ([Pfizer 2019](#30-references)). Following oral administration, atorvastatin acid is rapidly absorbed from the gastrointestinal tract, reaching maximum plasma concentrations within one to two hours ([Pfizer 2019](#30-references)). However, its bioavailability is notably low (~14%) due to extensive first pass metabolism by cytochrome P450 (CYP) 3A4 ([Pfizer 2019](#30-references)). Atorvastatin acid is also a substrate of multiple transporters, including the influx transporters organic anion transporting polypeptides (OATP) 1B1 and OATP1B3 ([Vildhede 2014](#25-references)), as well as the efflux transporters P-glycoprotein (P-gp) and breast cancer resistant protein (BCRP) ([Deng 2021](#24-references)), which makes atorvastatin acid highly susceptible to drug–drug interactions (DDIs) mediated by both enzymes and transporters. 
+Atorvastatin, a 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase inhibitor, is a widely prescribed statin to treat hypercholesterolemia ([Morse 2019](#5-references)). The recommended dosage for adults ranges from 10 to 80 mg once daily ([Pfizer 2019](#5-references)). Following oral administration, atorvastatin acid is rapidly absorbed from the gastrointestinal tract, reaching maximum plasma concentrations within one to two hours ([Pfizer 2019](#5-references)). However, its bioavailability is notably low (~14%) due to extensive first pass metabolism by cytochrome P450 (CYP) 3A4 ([Pfizer 2019](#5-references)). Atorvastatin acid is also a substrate of multiple transporters, including the influx transporters organic anion transporting polypeptides (OATP) 1B1 and OATP1B3 ([Vildhede 2014](#5-references)), as well as the efflux transporters P-glycoprotein (P-gp) and breast cancer resistant protein (BCRP) ([Deng 2021](#5-references)), which makes atorvastatin acid highly susceptible to drug–drug interactions (DDIs) mediated by both enzymes and transporters. 
 
-This whole-body atorvastatin acid PBPK model is intended to be used as a victim drug in CYP3A4- and OATP1B1/1B3-mediated DDIs. It has been developed using published pharmacokinetic clinical data by Backman 2005 ([Backman 2005](#8-references)), Bullman 2011 ([Bullman 2011](#3-references)), Di Spirito 2008 ([Di Spirito 2008](#4-references)), Gandelman 2011 ([Gandelman 2011](#1-references)), Kantola 1998 ([Kantola 1998](#10-references)), Lau 2007 ([Lau 2007](#11-references)), Mazzu 2000 ([Mazzu 2000](#5-references)), Mori 2020 ([Mori 2020](#12-references)), Park 2022 [Park 2022](#28-references), Patiño-Rodríguez 2015 ([Patiño-Rodríguez 2015](#2-references)), Shin 2011 ([Shin 2011](#6-references)), Siedlik 1999 ([Siedlik 1999](#7-references)), Takehara 2018 ([Takehara 2018](#13-references)), Teng 2013 ([Teng 2013](#14-references)) and Whitfield 2010 ([ Whitfield 2010](#9-references)) after oral administration. The selected clinical study data captures a broad dosing range of 1.0 to 80.0 mg atorvastatin acid. 
+This whole-body atorvastatin acid PBPK model is intended to be used as a victim drug in CYP3A4- and OATP1B1/1B3-mediated DDIs. It has been developed using published pharmacokinetic clinical data by Backman 2005 ([Backman 2005](#5-references)), Bullman 2011 ([Bullman 2011](#5-references)), Di Spirito 2008 ([Di Spirito 2008](#5-references)), Gandelman 2011 ([Gandelman 2011](#5-references)), Kantola 1998 ([Kantola 1998](#5-references)), Lau 2007 ([Lau 2007](#5-references)), Mazzu 2000 ([Mazzu 2000](#5-references)), Mori 2020 ([Mori 2020](#5-references)), Park 2022 [Park 2022](#5-references), Patiño-Rodríguez 2015 ([Patiño-Rodríguez 2015](#5-references)), Shin 2011 ([Shin 2011](#5-references)), Siedlik 1999 ([Siedlik 1999](#5-references)), Takehara 2018 ([Takehara 2018](#5-references)), Teng 2013 ([Teng 2013](#5-references)) and Whitfield 2010 ([ Whitfield 2010](#5-references)) after oral administration. The selected clinical study data captures a broad dosing range of 1.0 to 80.0 mg atorvastatin acid. 
 
 The model has then been evaluated by simulating clinical studies and comparing with respective observed data. 
 
 The presented model includes the following features:
 
 - Metabolism by CYP3A4,
-- Metabolism by CYP3A5 (only implemented in Park 2022 for CYP3A5 normal metabolizers ([Park 2022](#28-references)); otherwise, the kcat has been set to 0),
+- Metabolism by CYP3A5 (only implemented in Park 2022 for CYP3A5 normal metabolizers ([Park 2022](#5-references)); otherwise, the kcat has been set to 0),
 - Transport by BCRP,
 - Transport by P-gp, and
 - Transport by OATP1B1/1B3.
@@ -46,11 +46,11 @@ The presented model includes the following features:
 
 ## 2.1 Modeling strategy<a id="21"></a>
 
-The general concept of building a PBPK model has previously been described by Kuepfer et al. ([Kuepfer 2016](#15-references)). Relevant information on anthropometric (height, weight) and physiological parameters (e.g. blood flows, organ volumes, binding protein concentrations, hematocrit, cardiac output) in adults was gathered from the literature and has been previously published ([Willmann 2007](#16-references)). The information was incorporated into PK-Sim® and was used as default values for the simulations in adults.
+The general concept of building a PBPK model has previously been described by Kuepfer et al. ([Kuepfer 2016](#5-references)). Relevant information on anthropometric (height, weight) and physiological parameters (e.g. blood flows, organ volumes, binding protein concentrations, hematocrit, cardiac output) in adults was gathered from the literature and has been previously published ([Willmann 2007](#5-references)). The information was incorporated into PK-Sim® and was used as default values for the simulations in adults.
 
-The applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available PK-Sim® Ontogeny Database Version ([PK-Sim Ontogeny Database Version 7.3](#17-references)) or otherwise referenced for the specific process.
+The applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available PK-Sim® Ontogeny Database Version ([PK-Sim Ontogeny Database Version 7.3](#5-references)) or otherwise referenced for the specific process.
 
-A PBPK model was built based on seven mean plasma concentration-time profiles after oral administration of atorvastatin acid obtained from the clinical studies by Backman 2005 ([Backman 2005](#8-references)), Bullman 2011 ([Bullman 2011 ](#3-references)), Gandelman 2011 ([Gandelman 2011](#1-references)), Kantola 1998 ([Kantola 1998](#10-references)) and Teng 2013 ([Teng 2013](#14-references)). To inform CYP3A4- and OATP1B1/1B3-mediated pathways, the DDI studies with itraconazole ([Kantola 1998](#10-references)) and rifampicin ([Lau 2007](#11-references)) were included in the model building. Virtual mean individuals were generated for each study based on the reported mean and mode demographic information (including sex, ethnicity, body weight, height, body mass index, and age). If demographic information was missing, provided mean values in PK-Sim®, that were computed from the respective population database, were applied. The relative tissue-specific expressions of the enzyme and transporter predominantly being involved in the metabolism/transport of atorvastatin acid (CYP3A4, CYP3A5, BCRP, OATP1B1/1B3, and P-gp) were considered ([Nishimura 2003](#18-references), [Nishimura 2005](#19-references), [Kolesnikov 2015](#20-references)). 
+A PBPK model was built based on seven mean plasma concentration-time profiles after oral administration of atorvastatin acid obtained from the clinical studies by Backman 2005 ([Backman 2005](#5-references)), Bullman 2011 ([Bullman 2011 ](#5-references)), Gandelman 2011 ([Gandelman 2011](#5-references)), Kantola 1998 ([Kantola 1998](#5-references)) and Teng 2013 ([Teng 2013](#5-references)). To inform CYP3A4- and OATP1B1/1B3-mediated pathways, the DDI studies with itraconazole ([Kantola 1998](#5-references)) and rifampicin ([Lau 2007](#5-references)) were included in the model building. Virtual mean individuals were generated for each study based on the reported mean and mode demographic information (including sex, ethnicity, body weight, height, body mass index, and age). If demographic information was missing, provided mean values in PK-Sim®, that were computed from the respective population database, were applied. The relative tissue-specific expressions of the enzyme and transporter predominantly being involved in the metabolism/transport of atorvastatin acid (CYP3A4, CYP3A5, BCRP, OATP1B1/1B3, and P-gp) were considered ([Nishimura 2003](#5-references), [Nishimura 2005](#5-references), [Kolesnikov 2015](#5-references)). 
 
 A specific set of parameters (see [Section 3.1](#31-atorvastatin-final-input-parameters)) was optimized to describe the disposition of atorvastatin acid using the Parameter Identification module provided in PK-Sim®.
 
@@ -68,16 +68,16 @@ A literature search was performed to collect available information on physicoche
 
 | **Parameter**             | **Unit** | **Value** | Source                               | **Description**                                              |
 | :------------------------ | -------- | --------- | ------------------------------------ | ------------------------------------------------------------ |
-| MW                        | g/mol    | 558.66    | [Zhang 2015](#21-references)         | Molecular weight                                             |
-| pK<sub>a</sub> (acid)     |          | 4.46      | [Zhang 2015](#21-references)         | Acid dissociation constant of conjugate acid                 |
-| Solubility (pH=6)         | g/L      | 1.22      | [Morse 2019](#22-references)         | Solubility                                           |
-| logP                      |          | 4.07      | [Duan 2017](#23-references)          | Partition coefficient between octanol and water              |
-| fu                        | %        | 5.10      | [Zhang 2015](#21-references)         | Fraction unbound in plasma                                   |
-| K<sub>m</sub> CYP3A4      | µmol/L   | 25.60     | [Jacobsen 2000](#23-references)      | CYP3A4 Michaelis-Menten constant                             |
-| K<sub>m</sub> CYP3A5      | µmol/L   | 42.60     | [Park 2008](#29-references)          | CYP3A5 Michaelis-Menten constant                             |
-| K<sub>m</sub> BCRP        | µmol/L   | 82.41     | [Deng 2021](#24-references)          | BCRP Michaelis-Menten constant                               |                
-| K<sub>m</sub> OATP1B1/1B3 | µmol/L   | 0.77      | [Vildhede 2014](#25-references)      | OATP1B1/3 Michaelis-Menten constant                         |
-| K<sub>m</sub> P-gp        | µmol/L   | 10.7      | [Deng 2021](#24-references)          | P-gp Michaelis-Menten constant                                |
+| MW                        | g/mol    | 558.66    | [Zhang 2015](#5-references)         | Molecular weight                                             |
+| pK<sub>a</sub> (acid)     |          | 4.46      | [Zhang 2015](#5-references)         | Acid dissociation constant of conjugate acid                 |
+| Solubility (pH=6)         | g/L      | 1.22      | [Morse 2019](#5-references)         | Solubility                                           |
+| logP                      |          | 4.07      | [Duan 2017](#5-references)          | Partition coefficient between octanol and water              |
+| fu                        | %        | 5.10      | [Zhang 2015](#5-references)         | Fraction unbound in plasma                                   |
+| K<sub>m</sub> CYP3A4      | µmol/L   | 25.60     | [Jacobsen 2000](#5-references)      | CYP3A4 Michaelis-Menten constant                             |
+| K<sub>m</sub> CYP3A5      | µmol/L   | 42.60     | [Park 2008](#5-references)          | CYP3A5 Michaelis-Menten constant                             |
+| K<sub>m</sub> BCRP        | µmol/L   | 82.41     | [Deng 2021](#5-references)          | BCRP Michaelis-Menten constant                               |                
+| K<sub>m</sub> OATP1B1/1B3 | µmol/L   | 0.77      | [Vildhede 2014](#5-references)      | OATP1B1/3 Michaelis-Menten constant                         |
+| K<sub>m</sub> P-gp        | µmol/L   | 10.7      | [Deng 2021](#5-references)          | P-gp Michaelis-Menten constant                                |
 | Formulation               |          | Solution  |                                      | Formulation used in simulations                              |
 
 ### 2.2.2 Clinical data
@@ -88,38 +88,38 @@ The following publications were found in adults for model building:
 
 | Publication                     | Arm / Treatment / Information used for model building        |
 | :------------------------------ | :----------------------------------------------------------- |
-| [Gandelman 2011](#1-references) | Plasma PK profile in healthy subjects after single oral administration of 10 mg atorvastatin acid (study A<sup>a</sup>) |
-| [Bullman 2011](#3-references)   | Plasma PK profile in healthy subjects after multiple oral administrations of 40 mg atorvastatin acid (once daily for 7 days, control of DDI with phenytoin)|
-| [Backman 2005](#8-references)   | Plasma PK profile in healthy subjects after single oral administration of 20 mg atorvastatin acid (control of gemfibrozil DDI) |
-| [Kantola 1998](#10-references)  | Plasma PK profile in healthy subjects after single oral administration of 40 mg atorvastatin acid (control of itraconazole DDI) |
-| [Kantola 1998](#10-references)  | Plasma PK profile in healthy subjects after multiple oral administrations of 200 mg itraconazole (once daily for 4 days) and on day 4 together with a single oral administration of 40 mg atorvastatin acid (itraconazole DDI) |
-| [Lau 2007](#11-references)      | Plasma PK profile in healthy subjects after single oral administration of 40 mg atorvastatin acid, preceded by 30 minutes infusion of 600 mg rifampicin (rifampicin DDI) |
-| [Teng 2013](#14-references)     | Plasma PK profile in healthy subjects after single oral administration of 80 mg atorvastatin acid |
+| [Gandelman 2011](#5-references) | Plasma PK profile in healthy subjects after single oral administration of 10 mg atorvastatin acid (study A<sup>a</sup>) |
+| [Bullman 2011](#5-references)   | Plasma PK profile in healthy subjects after multiple oral administrations of 40 mg atorvastatin acid (once daily for 7 days, control of DDI with phenytoin)|
+| [Backman 2005](#5-references)   | Plasma PK profile in healthy subjects after single oral administration of 20 mg atorvastatin acid (control of gemfibrozil DDI) |
+| [Kantola 1998](#5-references)  | Plasma PK profile in healthy subjects after single oral administration of 40 mg atorvastatin acid (control of itraconazole DDI) |
+| [Kantola 1998](#5-references)  | Plasma PK profile in healthy subjects after multiple oral administrations of 200 mg itraconazole (once daily for 4 days) and on day 4 together with a single oral administration of 40 mg atorvastatin acid (itraconazole DDI) |
+| [Lau 2007](#5-references)      | Plasma PK profile in healthy subjects after single oral administration of 40 mg atorvastatin acid, preceded by 30 minutes infusion of 600 mg rifampicin (rifampicin DDI) |
+| [Teng 2013](#5-references)     | Plasma PK profile in healthy subjects after single oral administration of 80 mg atorvastatin acid |
 
 The following dosing scenarios were simulated and compared to respective data for model verification:
 
 | Scenario                                                     | Data reference                        |
 | ------------------------------------------------------------ | ------------------------------------- |
-| single oral administration of 1  mg atorvastatin acid (control of rifampicin DDI)| [Mori 2020](#12-references)           |
-| single oral administration of 1  mg atorvastatin acid (control of rifampicin DDI)| [Takehara 2018](#13-references)       |
-| single oral administration of 10 mg atorvastatin acid (study C<sup>a</sup>)                | [Gandelman 2011](#1-references)       |
-| single oral administration of 10 mg atorvastatin acid (control of erythromycin DDI)| [Siedlik 1999](#7-references)         |
+| single oral administration of 1  mg atorvastatin acid (control of rifampicin DDI)| [Mori 2020](#5-references)           |
+| single oral administration of 1  mg atorvastatin acid (control of rifampicin DDI)| [Takehara 2018](#5-references)       |
+| single oral administration of 10 mg atorvastatin acid (study C<sup>a</sup>)                | [Gandelman 2011](#5-references)       |
+| single oral administration of 10 mg atorvastatin acid (control of erythromycin DDI)| [Siedlik 1999](#5-references)         |
 | single oral administration of 20 mg atorvastatin acid (control of itraconazole DDI)| [Mazzu 2020](#5-references)           |
-| single oral administration of 20 mg atorvastatin acid            | [Patiño-Rodríguez 2015](#2-references)|
-| single oral administration of 20 mg atorvastatin acid (control of clarithromycin DDI in the CYP3A5 expressor group)       | [Shin 2011](#6-references)            |
-| single oral administration of 20 mg atorvastatin acid (control of clarithromycin DDI in the CYP3A5 non-expressor group)    | [Shin 2011](#6-references)            |
-| single oral administration of 40 mg atorvastatin acid (control of rifampicin DDI)  | [Backman 2005](#8-references)         |
-| single oral administration of 40 mg atorvastatin acid (control of gemfibrozil DDI) | [Whitfield 2011](#9-references)       |
-| multiple oral administrations of 40 mg atorvastatin acid (once daily for 7 days)       | [Bullman 2011](#3-references)         |
-| single oral administration of 40 mg atorvastatin acid (control of rifampicin DDI)| [Lau 2007](#11-references)            |
-| multiple oral administrations of 80 mg atorvastatin acid (once daily for 14 days)      | [Di Spirito 2008](#4-references)      |
-| single oral administration of 80 mg atorvastatin acid (study B<sup>a</sup>)                | [Gandelman 2011](#1-references)       |
-| single oral administration of 80 mg atorvastatin acid (study D<sup>a</sup>)                | [Gandelman 2011](#1-references)       |
-| single oral administration of 80 mg atorvastatin acid (CYP3A5 normal metabolizer) | [Park 2022](#28-references)            |
-| single oral administration of 80 mg atorvastatin acid (CYP3A5 intermediate metabolizer) | [Park 2022](#28-references)            |
-| single oral administration of 80 mg atorvastatin acid (CYP3A5 poor metabolizer) | [Park 2022](#28-references)            |
+| single oral administration of 20 mg atorvastatin acid            | [Patiño-Rodríguez 2015](#5-references)|
+| single oral administration of 20 mg atorvastatin acid (control of clarithromycin DDI in the CYP3A5 expressor group)       | [Shin 2011](#5-references)            |
+| single oral administration of 20 mg atorvastatin acid (control of clarithromycin DDI in the CYP3A5 non-expressor group)    | [Shin 2011](#5-references)            |
+| single oral administration of 40 mg atorvastatin acid (control of rifampicin DDI)  | [Backman 2005](#5-references)         |
+| single oral administration of 40 mg atorvastatin acid (control of gemfibrozil DDI) | [Whitfield 2011](#5-references)       |
+| multiple oral administrations of 40 mg atorvastatin acid (once daily for 7 days)       | [Bullman 2011](#5-references)         |
+| single oral administration of 40 mg atorvastatin acid (control of rifampicin DDI)| [Lau 2007](#5-references)            |
+| multiple oral administrations of 80 mg atorvastatin acid (once daily for 14 days)      | [Di Spirito 2008](#5-references)      |
+| single oral administration of 80 mg atorvastatin acid (study B<sup>a</sup>)                | [Gandelman 2011](#5-references)       |
+| single oral administration of 80 mg atorvastatin acid (study D<sup>a</sup>)                | [Gandelman 2011](#5-references)       |
+| single oral administration of 80 mg atorvastatin acid (CYP3A5 normal metabolizer) | [Park 2022](#5-references)            |
+| single oral administration of 80 mg atorvastatin acid (CYP3A5 intermediate metabolizer) | [Park 2022](#5-references)            |
+| single oral administration of 80 mg atorvastatin acid (CYP3A5 poor metabolizer) | [Park 2022](#5-references)            |
 
-<sup>a</sup>  In the study by [Gandelman 2011](#1-references), a small tablet formulation (1x10 mg in study A and 1x80 mg in study B) and a chewable tablet
+<sup>a</sup>  In the study by [Gandelman 2011](#5-references), a small tablet formulation (1x10 mg in study A and 1x80 mg in study B) and a chewable tablet
 formulation (1x10 mg in study C and 1x80 mg in study D) was tested in two single-dose bioequivalent studies (10 mg and
 80 mg). Only the plasma profiles of the reference product in each study were digitized. 
 
@@ -143,12 +143,12 @@ Two metabolic pathways were implemented into the model via Michaelis-Menten kine
 
 * CYP3A4
 
-The CYP3A4 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#18-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+The CYP3A4 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#5-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 * CYP3A5
 
-The CYP3A5 metabolic pathway was implemented only for normal metabolizers in the study by [Park 2022](#28-references); for all other studies, CYP3A5 `kcat` value was set to 0.
-The CYP3A5 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#18-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+The CYP3A5 metabolic pathway was implemented only for normal metabolizers in the study by [Park 2022](#5-references); for all other studies, CYP3A5 `kcat` value was set to 0.
+The CYP3A5 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#5-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 In addition, three transport proteins were implemented into the model via Michaelis-Menten kinetics: 
 
@@ -158,11 +158,11 @@ The BCRP expression profile is based on whole genome expression arrays from Arra
 
 * OATP1B1/1B3
 
-For OATP1B1/1B3 the expression profile was considered only for OATP1B1 and is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+For OATP1B1/1B3 the expression profile was considered only for OATP1B1 and is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 * P-gp
 
-The P-gp expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)) with an intestinal mucosa of factor 3.57 ([Hanke 2018](#27-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see Section 2.3.4).
+The P-gp expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)) with an intestinal mucosa of factor 3.57 ([Hanke 2018](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see Section 2.3.4).
 
 Additionally, fraction of bile that was continuously released was set to 1 (`EHC continuous fraction`).
 
@@ -582,7 +582,7 @@ A whole-body PBPK model for atorvastatin acid has been successfully developed an
 
 **Willmann 2007** Willmann S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. (2007). Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. *J Pharmacokinet Pharmacodyn.* 34(3), 401-431.
 
-**PK-Sim Ontogeny Database Version 7.3** Open Systems Pharmacology Suite Community (2018) PK-Sim® Ontogeny Database Documentation version 7.3. https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-SimOntogenyDatabaseVersion7.3.pdf.
+**PK-Sim Ontogeny Database Version 7.3** Open Systems Pharmacology Suite Community (2018) PK-Sim® Ontogeny Database Documentation version 7.3. [https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)
 
 **Nishimura 2003** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T (2003) Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. *Journal of the Pharmaceutical Society of Japan* *123*(5):369–75.
 

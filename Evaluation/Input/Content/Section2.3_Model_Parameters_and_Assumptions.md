@@ -16,12 +16,12 @@ Two metabolic pathways were implemented into the model via Michaelis-Menten kine
 
 * CYP3A4
 
-The CYP3A4 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#18-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+The CYP3A4 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#5-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 * CYP3A5
 
-The CYP3A5 metabolic pathway was implemented only for normal metabolizers in the study by [Park 2022](#28-references); for all other studies, CYP3A5 `kcat` value was set to 0.
-The CYP3A5 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#18-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+The CYP3A5 metabolic pathway was implemented only for normal metabolizers in the study by [Park 2022](#5-references); for all other studies, CYP3A5 `kcat` value was set to 0.
+The CYP3A5 expression profile is based on high-sensitive real-time RT-PCR ([Nishimura 2003](#5-references)). Metabolic enzyme activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and the `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 In addition, three transport proteins were implemented into the model via Michaelis-Menten kinetics: 
 
@@ -31,11 +31,11 @@ The BCRP expression profile is based on whole genome expression arrays from Arra
 
 * OATP1B1/1B3
 
-For OATP1B1/1B3 the expression profile was considered only for OATP1B1 and is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
+For OATP1B1/1B3 the expression profile was considered only for OATP1B1 and is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#234-automated-parameter-identification)).
 
 * P-gp
 
-The P-gp expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#20-references)) with an intestinal mucosa of factor 3.57 ([Hanke 2018](#27-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see Section 2.3.4).
+The P-gp expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)) with an intestinal mucosa of factor 3.57 ([Hanke 2018](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from the literature and `kcat` was optimized based on clinical data (see Section 2.3.4).
 
 Additionally, fraction of bile that was continuously released was set to 1 (`EHC continuous fraction`).
 
