@@ -6,7 +6,7 @@
 
 **Di Spirito 2008** Di Spirito M, Morelli G, Doyle RT, Johnson J, McKenney J (2008) Effect of omega-3-acid ethyl esters on steady-state plasma pharmacokinetics of atorvastatin in healthy adults. *Expert Opin Pharmacother.* *9*(17):2939–45.
 
-**Mazzu 2000** Mazzu AL, Lasseter KC, Shamblen EC, Agarwal V, Lettieri J, Sundaresen P (2008) Itraconazole alters the pharmacokinetics of atorvastatin to a greater extent than either cerivastatin or pravastatin. *Clin Pharmacol Ther.* *68*(4):391–400.
+**Mazzu 2000** Mazzu AL, Lasseter KC, Shamblen EC, Agarwal V, Lettieri J, Sundaresen P (2000) Itraconazole alters the pharmacokinetics of atorvastatin to a greater extent than either cerivastatin or pravastatin. *Clin Pharmacol Ther.* *68*(4):391–400.
 
 **Shin 2011** Shin J, Pauly DF, Pacanowski MA, Langaee T, Frye RF, Johnson JA (2011) Effect of cytochrome P450 3A5 genotype on atorvastatin pharmacokinetics and its interaction with clarithromycin. *Pharmacotherapy* *31*(10):942–50.
 
@@ -14,7 +14,7 @@
 
 **Backman 2005** Backman JT, Luurila H, Neuvonen M, Neuvonen PJ (2005) Rifampin markedly decreases and gemfibrozil increases the plasma concentrations of atorvastatin and its metabolites. *Clin Pharmacol Ther.* *78*(2):154–67.
 
-**Whitfield 2010** Whitfield LR, Porcari AR, Alvey C, Abel R, Bullen W, Hartman D (2011) Effect of gemfibrozil and fenofibrate on the pharmacokinetics of atorvastatin. *J Clin Pharmacol.* *51*(3):378–88.
+**Whitfield 2011** Whitfield LR, Porcari AR, Alvey C, Abel R, Bullen W, Hartman D (2011) Effect of gemfibrozil and fenofibrate on the pharmacokinetics of atorvastatin. *J Clin Pharmacol.* *51*(3):378–88.
 
 **Kantola 1998** Kantola T, Kivistö KT, Neuvonen PJ (1998) Effect of itraconazole on the pharmacokinetics of atorvastatin. *Clin Pharmacol Ther.* *64*(1):58–65.
 
@@ -56,4 +56,4 @@
 
 **Park 2008** Park JE, Kim KB, Bae SK, Moon BS, Liu KH, Shin JG (2008) Contribution of cytochrome P450 3A4 and 3A5 to the metabolism of atorvastatin. *Xenobiotica* *38*(9):1240-1251.
 
-**Pfizer 2019** Pfizer (2019) https://labeling.pfizer.com/ShowLabeling.aspx?id=587. Accessed on 2025-02-11.
+**Pfizer 2019** Pfizer (2019) [https://labeling.pfizer.com/ShowLabeling.aspx?id=587](https://labeling.pfizer.com/ShowLabeling.aspx?id=587). Accessed on 2025-02-11.

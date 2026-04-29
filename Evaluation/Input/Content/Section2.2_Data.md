@@ -14,6 +14,7 @@ A literature search was performed to collect available information on physicoche
 | K<sub>m</sub> BCRP        | µmol/L   | 82.41     | [Deng 2021](#5-references)          | BCRP Michaelis-Menten constant                               |                
 | K<sub>m</sub> OATP1B1/1B3 | µmol/L   | 0.77      | [Vildhede 2014](#5-references)      | OATP1B1/3 Michaelis-Menten constant                         |
 | K<sub>m</sub> P-gp        | µmol/L   | 10.7      | [Deng 2021](#5-references)          | P-gp Michaelis-Menten constant                                |
+| Specific intestinal permeability (transcellular) | cm/s | 0.000449 | [Morse 2019](#5-references) | Specific intestinal permeability |
 | Formulation               |          | Solution  |                                      | Formulation used in simulations                              |
 
 ### 2.2.2 Clinical data
@@ -42,7 +43,7 @@ The following dosing scenarios were simulated and compared to respective data fo
 | single oral administration of 1  mg atorvastatin acid (control of rifampicin DDI)| [Takehara 2018](#5-references)       |
 | single oral administration of 10 mg atorvastatin acid (study C<sup>a</sup>)                | [Gandelman 2011](#5-references)       |
 | single oral administration of 10 mg atorvastatin acid (control of erythromycin DDI)| [Siedlik 1999](#5-references)         |
-| single oral administration of 20 mg atorvastatin acid (control of itraconazole DDI)| [Mazzu 2020](#5-references)           |
+| single oral administration of 20 mg atorvastatin acid (control of itraconazole DDI)| [Mazzu 2000](#5-references)           |
 | single oral administration of 20 mg atorvastatin acid            | [Patiño-Rodríguez 2015](#5-references)|
 | single oral administration of 20 mg atorvastatin acid (control of clarithromycin DDI in the CYP3A5 expressor group)       | [Shin 2011](#5-references)            |
 | single oral administration of 20 mg atorvastatin acid (control of clarithromycin DDI in the CYP3A5 non-expressor group)    | [Shin 2011](#5-references)            |
